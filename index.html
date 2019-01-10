@@ -35,140 +35,94 @@ layout: default
       </a>
     </div>
 
-    <!-- News and Spotlight Events  --> 
-    <div class="container">
+   <div class="container jumbotron-tail">  
 
-      <div class="row">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
 
-        <div class="col-sm-7 news" >
-          <h3 class="section-title pl-0"> News </h3>
 
-          {% for post in site.categories["news"] limit:15 %}
-          <div class="card drop-shadow"> 
-            <div class="row no-gutters ">
-            <div class="col-2">
-            <img  class="member-img img-responsive center-block" src="{{post.img}}" alt="Card image cap" >
-            </div>
-            <div class="card-body col-10">
-              <a class="card-title" href="{{ post.url }}">
-                {{ post.title }}
-              </a>
-              <h6 class="card-subtitle mb-2 "> {{ post.date | date: "%d %B %Y" }} </h6>
-              <p class="card-text">
-                {{ post.excerpt | remove: '<p>' | remove: '</p>'  }}
-              </p>
-            </div>
-            </div>
-          </div>
-        {% endfor %}
-        </div>
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 100%; 
+}
 
-        <div class="col-sm-5 events">
-        <!--
-          <h3 class="section-title pl-0"> Web Science Research Activities </h3>
-          -->
 
-          <h3 class="section-title pl-0"> Events </h3> 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
 
-          {% for post in site.categories["events"] %}
-          <div class="card event-card drop-shadow"> 
-             <div class="container">
-             <div class="row ">
-             <div class="col-9">
-              <a class="card-title" href="{{ post.url }}">
-                {{ post.title }} 
-              </a>
-              <div class="card-speaker"> 
-                 {{post.speaker}}
-              </div>
-              <div class="card-subtitle"> 
-                {{ post.venue }}
-              </div>
-             </div>
-             <div class="col-3 text-right " style="margin-left:-15px">
-               <div class="cal-box">
-                 <div class="cal-day">{{ post.date | date: "%d %b" }} </div>
-                 <div class="cal-time">{{ post.date | date: "%l:%M %P" }} </div>
-               </div>
-               
-            </div>
-            </div>
-            </div>
+<div class="row">
+  <div class="column" style="background-color:#0000;">
+<video width="500" height="250" controls="controls" autoplay>
+  <source src="/images/Robert_bosch_IITM.mp4" type="video/mp4">
+Your browser does not support HTML5 video
+</video>
+<h2><strong><font color="red">Strengths</font></strong></h2>
+  <p align="justify"> <text  style="color:black;">
+
+The RBC-DSAI is one of the few centres in the world for data science and AI applications in various engineering disciplines.</text></p> <br>
+
+
+
+<p align="justify">With the increased availability of data from online social media, transactions and sensors increasingly AI is focusing on networked data or relational data. We have one of the largest groups in rbc-dsai.iitm.ac.in the country looking at networked data across different disciplines biology, transportation, water distribution, process modeling, online social media, telecom, and reaction networks.</p><br>
+
+
+
+<p align="justify">Deep Reinforcement Learning is at the cutting edge of the new AI revolution and is responsible for the many path-breaking developments in AI recently. The Centre has the largest Deep Reinforcement Learning group in India and one of the largest in academia in the world.</p>
+  <br>
+<br>
+
+<h2><strong><font color="red">Reach Us</font></strong></h2>
+<br><br>
+            <img src="/assets/rbcdsai.png" width="420" height="200" align="middle"><br> 
+          <text><strong>5th floor, Bhupat and Jyoti Mehta School of Biosciences Building II</strong></text> 
+          <text><strong>Indian Institute of Technology Madras</strong></text>
+          <text><strong>Chennai, India 600036</strong></text>
+
+
+  </div>
+  <div class="column" style="background-color:#ffff;">
+    <h2><strong><font color="red">Vision</font></strong></h2>
+    <p align="justify">To  achieve  global  prominence  in   the  areas  of  Data  Science  and   Artificial  Intelligence  research  by carrying out fundamental research, creating top-quality researchers and intellectual properties which will result in significant societal impact.</p>
+
+<h2><strong><font color="red">Mission</font></strong></h2>
+    To focus and work on <br><br>
+
+
+
+<p align="justify"><text  style="color:red;"> Fundamental  Research</text>   in  the  areas   of   deep   learning,   network    analytics, learning with  limited  and    partial  data,  causal   modelling,
+
+data science  specific  system architecture and reinforcement learning.</p><br>
+
+
+
+<p align="justify"><text  style="color:red;">Applied   Research</text>  in   four   verticals   viz.,   manufacturing    analytics, financial  analytics,  smart  cities,  systems  biology & health care.</p> <br>
+
+
+<p align="justify"><text  style="color:red;">Quality  Education</text> in  AI  and  Data  Science  by  offering  dual  Degree
+
+in  data sciences,  online  courses,  workshops,  industry  oriented  specialized  training & special scholarships.</p><br>
+
+
+
+<p align="justify"><text  style="color:red;">Societal impact</text> by fostering  startups   with high worth  intellectual    capital  catering to the Indian market;  Creating  and  hosting   repository  for    datasets   relevant   to     ecosystem;    Conducting    focused    skill    development program for various industries; Working with  government  agencies  to address  problems  of  interest to the nation.</p> <br>
+ 
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.7246911885513!2d80.22543465084567!3d12.989452517954774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52677e1e07131f%3A0xd8999c65eb68bc61!2sDepartment+Of+Biotechnology%2C+IIT+Madras!5e0!3m2!1sen!2sus!4v1521105831243" width="500" height="350" frameborder="0" style="border:10" allowfullscreen></iframe>
+
+  </div>
+</div>
+</body>
+
               
-          </div>
-          {% endfor %}
+              
 
-
-         </div>
-        </div>
-
-        <div class="row">
-        <div class="col-12 " >
-          <div class="pub-container">
-          <h3 class="section-title mt-4" > Recent Publications </h3>
-          <ol class="px-0 mx-0 publications list">
-            {% for paper in site.data.publications_sorted limit:2 %}
-              <li>
-                <span class="pub-title">{{ paper.title}} </span> 
-                <span class="pub-authors">
-                {% assign authors = paper.author | split: " and " %}
-                {% assign str = "" %}
-                {% for author in authors %} 
-                  {% assign curr_str =  author | split: "," | reverse | join: " "| append:", " %}
-                  {% assign str = str | append: curr_str %} 
-                {% endfor %}
-                {% assign len = str | size | minus:2 %}
-                {{ str | slice:0, len }}
-                </span>
-                <span class="pub-journal">{{ paper.booktitle }}</span>
-                <span class="pub-year">({{ paper.year }})</span>
-                <span class="pub-location"></span>
-                <span class="pub-tail">
-                  {{ paper.volume }}
-                  {% if paper.number %} ({{ paper.number }}) {% endif %}
-                  {{ paper.pages}}
-                </span>
-                <span class="pub-links"> 
-                  {% if paper.link %}<a href="{{ paper.link }}">pdf</a> {% endif %}
-                  <!-- <a href="#">git</a> -->
-                </span>
-              </li>
-             {% endfor %}
-              <li class="border-0">
-               <a class="btn btn-primary btn-sm btn-view-more ripple" role="button" href="publications"> <strong> + </strong>  View More Publications </a>
-              </li>
-
-            </ol>
-            </div>
-            </div>
-            </div>
-
-    </div>
-
-    <div class="container mt-3" >
-      <div class="row">
-        <div class="col-3 pt-5">
-          <a href="http://web.iitm.ac.in/ibse/" target="_blank"><img class="pt-4" align="left" src="images/IBSE_logo.png" width="100" height="125"/></a>
-          <a href="http://www.webscience.org" target="_blank"><img class="pt-4" align="right" src="images/webtrust_logo_blue.jpg" width="125" height="100" /></a>
-        </div>
-        <div class="col-9 collab-section" >
-        <div >
-        <h3 class="section-title text-center"> Government and Industry Collaborators </h3>
-        <div class="container">
-          <div class="row align-items-center no-gutters">
-             <div class="col-2 text-center right-shadow zindex-sticky py-2">
-              <img   class="my-2 pr-3 brand-logo" src="images/bosch.png">
-              </div>
-            <div class="col-10">
-              <marquee behaviour="scroll" loop="1" scrollamount="2" direction="left" height="108" >
-                  {% for collaborator in site.data.collaborators  %}
-                       <img  width="75" class="my-2 mx-3" src="images/industrial/{{ collaborator.image }}"> 
-                  {% endfor %} 
-              </marquee>
-            </div>
-          </div>
-        </div>
-        </div>
-        </div>
-      </div>
-    </div>
