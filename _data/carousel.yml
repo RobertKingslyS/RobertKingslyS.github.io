@@ -1,17 +1,17 @@
-- title: Robert Bosch Centre for Data Science and Artificial Intelligence 
+- title: 
   image: carousel3_bg.jpg
   message: >
-    Founded in August 2017, with a vision to become an internationally renowned 
-    centre for data science research, where long-standing fundamental research problems, 
-    cutting across disciplines, are targeted and solved.
-  link: about.html 
+    
+  link:  
 
-- title: MS/PhD Admissions Open Now!
+- title: Highlights
   image: carousel2_bg.jpg
   message: >
-    MS / PhD applications are now being accepted, for both the January and July semesters. Admissions are
-    also open for the Interdisciplinary MS / PhD programmes in data science.
-  link: Join Us
+     Excellent knowledge   and  experience in  implementation  of  AWS tools  such  as  EC2,  Databases,  Storage  services,
+Route53, VPC, Autoscaling, ELB, cloud fromation, cloud front, cloud watch, IAM , EMR, etc  and proficient experiences
+in  web hosting   services,  DNS,  DHCP,  NFS, Apache, cluster, proxy server,  firewall,  SSH and  VPN  technologies 
+along   with Teaching, Learning and Coordinating skills
+  
 
 # - title: Reinforcement Learning 
 #   image: carousel2_bg.jpg
