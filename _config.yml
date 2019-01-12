@@ -1,16 +1,14 @@
-title: Robert Bosch Center for Data Science and Artificial Intelligence
+title: Info-Robert Kingsly S
 
-email:  ravi@cse.iitm.ac.in
+email:  srobertkingsly@gmail.com
 
 description: >
-  This research initiative seeks to advance and implement practices 
-  for gathering, processing and analysing data across different 
-  engineering and social branches. 
+  This website provide personal info of Mr. Robert Kingsly S
 
 timezone: "Asia/Kolkata"
   
 baseurl: "" 
-url    : "https://rbc-dsai.iitm.ac.in"
+url    : 
 
 include: ['_pages']
 
@@ -27,6 +25,6 @@ collections:
 
 authors:
   denzil:
-    name: Denzil Francis Crasta
+    name: Robert Kingsly S
   abhishek:
-    name: Abhishek Naik
+    name: Lavi
